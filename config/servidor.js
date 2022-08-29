@@ -14,4 +14,7 @@ consign().include('./routes').into(app) //quando executar o express (app) vai in
 //indicar a pasta dos assets (css, js, imagem, webfonts...) para funcionar, se não o css NÃO VAI FUNCIONAR MESMO LINKADO
 app.use(express.static('./src'))
 
-module.exports = {app, porta} //exportar o app pra ele funcionar 
+//habilitar o express para receber dados de formulários
+app.use(express.urlencoded({extended:false}))
+
+module.exports = {app, porta} //exportar o app e a porta pra ele funcionar 
