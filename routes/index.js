@@ -10,6 +10,6 @@ module.exports = (app)=>{
     })
 
     app.get("/images/:imageName", (req, res) => {
-        res.sendFile(process.cwd() + '/uploads/' + req.params.imageName)
-    })
+          res.sendFile(process.cwd() + '/uploads/' + req.params.imageName)
+   }) 
 }
