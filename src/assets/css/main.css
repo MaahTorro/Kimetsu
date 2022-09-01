@@ -2710,7 +2710,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #ee5d5d;
+				background-color: #5d7fee;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2718,7 +2718,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #75d3c2;
 			}
 
 			.tiles article.style4 > .image:before {
@@ -2726,11 +2726,11 @@ input, select, textarea {
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #7814bb;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #fd5d5d;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
