@@ -13,25 +13,24 @@
 </head>
 <body>
         <div class="container">
-            <h1>Cadastro de Conteúdos</h1>
+            <h1>Cadastro de personagens</h1>
 
             <form action="" method="post" enctype="multipart/form-data">
                 <label for="estilos">Estilo</label>
 
                 <select name="estilos" id="">
                     <option value="0" selected>Selecione...</option>
-                    <option value="style1">Estilo 1</option>
-                    <option value="style2">Estilo 2</option>
-                    <option value="style3">Estilo 3</option>
-                    <option value="style4">Estilo 4</option>
-                    <option value="style5">Estilo 5</option>
-                    <option value="style6">Estilo 6</option>
+                    <option value="style1">Hashira</option>
+                    <option value="style2">Matador de Oni</option>
+                    <option value="style3">Oni</option>
+                    <option value="style4">Lua Superior</option>
                 </select>
+
                 <label for="imagem">Imagem:</label>
                 <input type="file" name="imagem" id="" accept=".jpg,.jpeg,.png,.gif">
-                <label for="titulo">Título</label>
+                <label for="titulo">Nome:</label>
                 <input type="text" name="titulo" id="">
-                <label for="texto">Texto:</label>
+                <label for="texto">Descrição:</label>
                 <textarea name="texto" id="" cols="30" rows="1"></textarea>
                 <input type="submit" value="Gravar">
                 <input type="button" value="Home" onclick="window.location.href = '/'">
